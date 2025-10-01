@@ -1,0 +1,36 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DP-for-opt-pricing"
+version = "0.1.0"
+description = "American-style option pricing via FALKON kernel regression (KRR-DP)"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name="Your Name", email="you@example.com" }]
+license = { text = "MIT" }
+keywords = ["american options", "stochastic control", "kernel methods", "FALKON", "dynamic programming"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "torch>=2.0",
+  "falkon>=0.9.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/DP-for-opt-pricing"
+Issues = "https://github.com/yourusername/DP-for-opt-pricing/issues"
+
+[project.scripts]
+dp-train = "dp_opt_pricing.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
