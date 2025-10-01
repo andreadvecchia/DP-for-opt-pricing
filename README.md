@@ -4,7 +4,7 @@
 Code accompanying the work:
 
 **Error Propagation in Stochastic Optimal Control, with Applications to American Options Pricing**  
-_A. Della Vecchia, D. Filipović (under submission at ICLR, 2025)
+A. Della Vecchia, D. Filipović (under submission at ICLR, 2025)
 
 📄 [Paper link](https://arxiv.org/abs/2509.20239)  
 🔗 [Google Scholar](https://scholar.google.it/citations?view_op=view_citation&hl=it&user=aaeUheEAAAAJ&citation_for_view=aaeUheEAAAAJ:zYLM7Y9cAGgC)
