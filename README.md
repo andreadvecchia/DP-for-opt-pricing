@@ -13,13 +13,6 @@ A. Della Vecchia, D. Filipović (under submission at ICLR, 2025)
 ---
 
 ## Overview
-This repository contains a clean implementation of the **KRR-DP algorithm** (Kernel Ridge Regression with Dynamic Programming) for **American-style option pricing**.  
-It builds on the scalable **FALKON solver** for kernel ridge regression, and follows the algorithmic description in the paper (Algorithm 1, KRR-DP).  
-It includes both a clean **Jupyter notebook** and an **installable Python package** with a CLI.
-
-
-## Method
-
 The project implements **dynamic programming with regression-based Monte Carlo** for solving optimal stopping problems such as American option pricing.
 
 - At each time step in the backward recursion, the continuation value is estimated by **Monte Carlo simulation** of next-step asset prices.
@@ -29,6 +22,9 @@ The project implements **dynamic programming with regression-based Monte Carlo**
 - The implementation uses the **FALKON solver** for scalable KRR, enabling efficient training with Nyström subsampling.
 
 This algorithm is called **KRR-DP** in the paper: Kernel Ridge Regression + Dynamic Programming.
+
+The project includes both a clean **Jupyter notebook** and an **installable Python package** with a CLI.
+
 
 ![Value function surface](docs/put.pdf)
 
