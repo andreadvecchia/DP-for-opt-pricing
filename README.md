@@ -6,8 +6,9 @@ Code accompanying the work:
 **Error Propagation in Stochastic Optimal Control, with Applications to American Options Pricing**  
 A. Della Vecchia, D. Filipović (under submission at ICLR, 2025)
 
-📄 [Paper link](https://arxiv.org/abs/2509.20239)  
+📄 [Paper (PDF)](docs/DellaVecchia_error.pdf)
 🔗 [Google Scholar](https://scholar.google.it/citations?view_op=view_citation&hl=it&user=aaeUheEAAAAJ&citation_for_view=aaeUheEAAAAJ:zYLM7Y9cAGgC)
+
 
 ---
 
@@ -28,6 +29,8 @@ The project implements **dynamic programming with regression-based Monte Carlo**
 - The implementation uses the **FALKON solver** for scalable KRR, enabling efficient training with Nyström subsampling.
 
 This algorithm is called **KRR-DP** in the paper: Kernel Ridge Regression + Dynamic Programming.
+
+![Value function surface](docs/put.pdf)
 
 ## Structure
 ```
