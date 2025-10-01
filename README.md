@@ -26,7 +26,7 @@ This algorithm is called **KRR-DP** in the paper: Kernel Ridge Regression + Dyna
 The project includes both a clean **Jupyter notebook** and an **installable Python package** with a CLI.
 
 
-![Value function surface](docs/put.png)
+![Value function surface](docs/call-1.png)
 
 ## Structure
 ```
